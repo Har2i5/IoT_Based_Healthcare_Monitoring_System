@@ -1,1 +1,7 @@
 # IoT_Based_Healthcare_Monitoring_System
+
+# About
+
+Healthcare facilities particularly in resource limited settings often struggle with monitoring of patient vital signs and tracking of critical health metrics like body mass index (BMI). The manual processes currently employed are time-consuming, error-prone, and overwhelm limited healthcare staff. To address these challenges, an IoT based healthcare monitoring system which leverages the processing power and connectivity of the ESP32 microcontroller has been proposed to automate the collection of vital signs, such as heart rate, oxygen levels, and body temperature, using specialized sensors like the MAX30102 and the DS18B120 temperature sensor respectively. The system also integrates an automated BMI mechanism which performs its’ operation on users request through a push button and leverages an ultrasonic sensor and load cells for height and weight measurements respectively. The system is capable of measuring a maximum height of 2m and a maximum weight of 200kg. The patient’s health data collected from the different sensors is then sent to a google cloud real time database which is then displayed through a user-friendly interface. Overall, the proposed solution not only helps to reduce the workloads on healthcare providers but also seeks to optimize healthcare delivery and empower patients to better manage their well-being particularly in areas with limited resources. 
+
+**Keywords**: IoT, healthcare, vital-signs, BMI.
